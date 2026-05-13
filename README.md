@@ -24,15 +24,7 @@ SmartOPD is a modern online OPD (Outpatient Department) appointment and queue ma
 
 * Next.js
 * React.js
-* Tailwind CSS
-
-### Backend / Services
-
-* Firebase Authentication
-* Firebase Configuration
-
-### Tools
-
+* Tailwind Css
 * Git & GitHub
 * VS Code
 
