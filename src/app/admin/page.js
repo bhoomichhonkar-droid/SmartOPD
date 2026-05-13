@@ -8,7 +8,7 @@ export default function AdminPage() {
   const router = useRouter();
   const [bookings, setBookings] = useState([]);
 
-  // 🔒 PROTECT ADMIN ROUTE
+  //  PROTECT ADMIN ROUTE
   useEffect(() => {
 
     const user =
@@ -20,7 +20,7 @@ export default function AdminPage() {
 
   }, []);
 
-  // 📦 LOAD DATA
+  //  LOAD DATA
   useEffect(() => {
 
     const data =
