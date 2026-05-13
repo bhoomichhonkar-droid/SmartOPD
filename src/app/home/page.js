@@ -9,6 +9,11 @@ import Link from "next/link";
 export default function Home() {
   const router = useRouter();
   const [search, setSearch] = useState("");
+
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    router.replace("/login");
+  };
   //for login check
 
   useEffect(() => {
@@ -19,7 +24,8 @@ export default function Home() {
   }, [router]);
   useEffect(() => {
   window.history.pushState(null, "", window.location.href);
-
+  
+  
   const handleBack = () => {
     router.replace("/login");
   };
@@ -305,6 +311,14 @@ export default function Home() {
           <p className="mt-3 text-gray-400">
             Digital Healthcare Appointment System
           </p>
+
+          {/* LOGOUT BUTTON */}
+          <button
+            onClick={handleLogout}
+            className="mt-6 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-2xl font-bold transition"
+          >
+            Logout
+          </button>
 
         </div>
 

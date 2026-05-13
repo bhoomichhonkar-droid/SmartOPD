@@ -11,23 +11,26 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
 
   // auto redirect if already logged in
-  useEffect(() => {
+  
 
-    const user =
-      JSON.parse(localStorage.getItem("user"));
+   useEffect(() => {
 
-    if (user) {
+      const storedUser = localStorage.getItem("user");
 
-      if (user.role === "admin") {
+      if (!storedUser) return;
+
+      const user = JSON.parse(storedUser);
+
+      if (user?.role === "admin") {
         router.push("/admin");
-      } else if (user.role === "doctor") {
+      } else if (user?.role === "doctor") {
         router.push("/queue");
       } else {
         router.push("/home");
       }
-    }
 
-  }, []);
+
+  }, [router]);
 
   const handleLogin = (e) => {
     e.preventDefault();
