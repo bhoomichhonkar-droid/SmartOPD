@@ -101,12 +101,15 @@ Add your project screenshots here:
     * <img width="1366" height="768" alt="image" src="https://github.com/user-             attachments/assets/b94d8f27-3b43-4bfa-b980-10ef37b6e423" />
     *<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2330b457-175d-412c-8e76-36e6bb548f9d" />
 
+ *admin dashboard <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8d995cee-2f68-434e-9810-e80af2164fc0" />
+
 
 
 * Login Page <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ea53c0fb-8beb-4c2c-b0c7-09b83bb105aa" />
 
 * Appointment Booking
-*     <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/311ab4fa-6640-4749-bfc5-fd40a7f09872" />
+      ![Uploading image.png…]()
+
 * AI Symptop <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/24937171-85c2-48eb-bc4d-62c022c17643" />
 
 
